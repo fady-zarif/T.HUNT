@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "338209420369",
+    "firebase_url": "https://treasure-hunt-cbac0.firebaseio.com",
+    "project_id": "treasure-hunt-cbac0",
+    "storage_bucket": "treasure-hunt-cbac0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338209420369:android:5b54b9bf832bc52a",
+        "android_client_info": {
+          "package_name": "com.treasurehunt.treasurehunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338209420369-tgmfp0t4nj01lpm98524is1nh134vbma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treasurehunt.treasurehunt",
+            "certificate_hash": "A5F2FE49D33AEF4D9C05F03EAA53DA18DB790E8B"
+          }
+        },
+        {
+          "client_id": "338209420369-m2einnad3tkocq3tjqupn60k1p8d7hcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8v5zVqVKT14n6_OBByOzHv5ADgCk4K_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338209420369-m2einnad3tkocq3tjqupn60k1p8d7hcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

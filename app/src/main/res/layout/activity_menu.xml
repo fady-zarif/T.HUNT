@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.treasurehunt.treasurehunt.ui.MenuActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:alpha="60"
+        android:contentDescription=""
+        android:src="@mipmap/logoo"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/monthlyButton"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_background"
+            android:text="Monthly Mode"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/localButton"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_background"
+            android:enabled="false"
+            android:text="Local Mode"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/customButton"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_background"
+            android:enabled="false"
+            android:text="Custom Mode"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="-16dp"
+        android:paddingRight="-16dp">
+
+
+        <ImageView
+            android:id="@+id/settingsMinueImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="settings"
+            app:srcCompat="@mipmap/ic_menu_settings" />
+
+        <ImageView
+            android:id="@+id/shareMenuImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="share"
+            app:srcCompat="@mipmap/ic_menu_share" />
+
+        <ImageView
+            android:id="@+id/storeMenuImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="store"
+            app:srcCompat="@mipmap/ic_menu_store" />
+
+        <ImageView
+            android:id="@+id/avatarMenuImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="profile"
+            app:srcCompat="@mipmap/nav_avatar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

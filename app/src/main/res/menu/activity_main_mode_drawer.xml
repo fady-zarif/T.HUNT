@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_monthly_mode"
+            android:title="Monthly mode" />
+        <!--<item-->
+        <!--android:id="@+id/nav_local_mode"-->
+        <!--android:icon="@drawable/local"-->
+        <!--android:title="Local mode" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_custom_mode"-->
+        <!--android:icon="@drawable/custom"-->
+        <!--android:title="Custom mode" />-->
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_logout"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+
+</menu>
